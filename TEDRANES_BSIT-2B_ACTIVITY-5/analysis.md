@@ -1,0 +1,3 @@
+# Analysis: Stacks and Queues
+
+The linked-list stack performs push operations at the head because it allows elements to be inserted and removed efficiently in O(1) time. If insertion or removal were performed at the tail of a singly linked list, it would require additional traversal, making the operation slower at O(n). Meanwhile, an array queue must be circular so that previously occupied spaces can be reused after elements are removed. Using the modulo operator allows the front and rear positions to wrap around to the beginning of the array, preventing wasted space and maintaining efficient queue operations.
