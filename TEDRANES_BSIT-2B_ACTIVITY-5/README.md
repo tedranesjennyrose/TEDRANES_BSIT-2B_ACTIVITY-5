@@ -21,9 +21,6 @@ It also includes a menu-driven program, a parentheses balance checker, and a pri
 | `array_queue.py` | Circular array queue with enqueue, dequeue, peek_front, is_empty, and is_full |
 | `linked_queue.py` | Linked-list queue with front and rear references |
 | `main.py` | Menu-driven program for selecting an implementation and performing operations |
-| `parentheses_checker.py` | Checks whether (), [], and {} are balanced |
-| `print_queue.py` | Simulates print jobs in FIFO order and displays waiting order |
-| `test_driver.py` | Runs basic tests for the data structures and applications |
 | `analysis.md` | Written answer to the laboratory analysis question |
 
 ## How to Run
@@ -36,19 +33,7 @@ python main.py
 ```
 Choose 1 for ArrayStack, 2 for LinkedStack, 3 for Circular ArrayQueue, or 4 for LinkedQueue. Follow the displayed operation menu.
 
-### 2. Parentheses balance checker
-```bash
-python parentheses_checker.py
-```
-Enter an expression containing parentheses such as `({[]})`.
-
-### 3. Print queue simulation
-```bash
-python print_queue.py
-```
-Add print jobs with an ID and page count, view waiting jobs, and process jobs in FIFO order.
-
-### 4. Run tests
+### 2. Run tests
 ```bash
 python test_driver.py
 ```
